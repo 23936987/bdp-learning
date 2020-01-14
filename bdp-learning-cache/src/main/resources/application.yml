@@ -1,0 +1,14 @@
+server:
+  port: 8080
+
+
+
+spring:
+  datasource:
+    username: root
+    password: root
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    #com.mysql.jdbc.Driver 是5版本的驱动
+    #com.mysql。cj.jdbc.Driver 是8版本的驱动
+    #?serverTimezone=UTC 解决时区的报错
+    url: jdbc:mysql://192.168.15.5:3306/bdp_sys?serverTimezone=UTC&useUnicode=true&characterEncoding=utf-8
