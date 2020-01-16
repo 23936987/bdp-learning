@@ -1,13 +1,13 @@
-package com.bdp.bdplearningredis;
+package com.bdp;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class BdpLearningRedisApplication {
+public class BdpLearningKafkaApplication {
 
     public static void main(String[] args) {
-        SpringApplication.run(BdpLearningRedisApplication.class, args);
+        SpringApplication.run(BdpLearningKafkaApplication.class, args);
     }
 
 }
